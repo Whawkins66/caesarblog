@@ -1,11 +1,10 @@
 {
   "private": true,
-  "name": "minimal-blog",
+  "name": "CaesarBlog",
   "description": "CaesarBlog",
   "version": "1.3.12",
-  "author": "LekoArts <hello@lekoarts.de>",
+  "author": "Caesar <will.hawkins@codecaesar.com>",
   "license": "0BSD",
-  "starter-name": "gatsby-starter-minimal-blog",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -16,7 +15,6 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@lekoarts/gatsby-theme-minimal-blog": "^4.0.0",
     "gatsby": "^4.12.1",
     "gatsby-omni-font-loader": "^2.0.0",
     "gatsby-plugin-feed": "^4.12.1",

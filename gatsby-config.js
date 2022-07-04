@@ -8,13 +8,13 @@ module.exports = {
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-minimal-blog/gatsby-config.js
     siteTitle: `Codecaesar.com`,
-    siteTitleAlt: `Codecaesar.com - Gatsby Theme`,
-    siteHeadline: `Codecaesar.com - Gatsby Theme from @lekoarts`,
+    siteTitleAlt: `Codecaesar.com`,
+    siteHeadline: `Codecaesar.com`,
     siteUrl: `https://codecaesar.com`,
     siteDescription: `Caesar`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
+    author: `@caesar`,
   },
   plugins: [
     {
