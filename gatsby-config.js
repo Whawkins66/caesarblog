@@ -18,7 +18,7 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `@lekoarts/gatsby-theme-minimal-blog`,
+      resolve: `@codecaesar/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
       options: {
         navigation: [
@@ -66,7 +66,7 @@ module.exports = {
         short_name: `czr-blog`,
         description: `caesar blog`,
         start_url: `/`,
-        background_color: `#702963`,
+        background_color: `#702963`,  //byzantine purple
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#6B46C1`,
@@ -129,7 +129,7 @@ module.exports = {
               }
             `,
             output: `rss.xml`,
-            title: `Codecaesar.com - @lekoarts/gatsby-theme-minimal-blog`,
+            title: `Codecaesar.com - @codecaesar/gatsby-theme-minimal-blog`,
           },
         ],
       },
