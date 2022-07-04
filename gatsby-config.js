@@ -18,31 +18,6 @@ module.exports = {
   },
   plugins: [
     {
-      // See the theme's README for all available options
-      options: {
-        navigation: [
-          {
-            title: `Blog`,
-            slug: `/blog`,
-          },
-          {
-            title: `About`,
-            slug: `/about`,
-          },
-        ],
-        externalLinks: [
-          {
-            name: `Rome`,
-            url: `https://rome.com`,
-          },
-          {
-            name: `SPQR`,
-            url: `https://spqr.com`,
-          },
-        ],
-      },
-    },
-    {
       resolve: `gatsby-omni-font-loader`,
       options: {
         enableListener: true,
@@ -128,7 +103,7 @@ module.exports = {
               }
             `,
             output: `rss.xml`,
-            title: `Codecaesar.com - @codecaesar/gatsby-theme-minimal-blog`,
+            title: `Codecaesar.com`,
           },
         ],
       },
