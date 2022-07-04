@@ -4,12 +4,12 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby Starter: Minimal Blog
+  Gatsby Starter: Codecaesar.com
 </h1>
 
 <p align="center">
   <a href="https://github.com/LekoArts/gatsby-starter-minimal-blog/blob/master/LICENSE">
-    <img src="https://img.shields.io/badge/license-0BSD-blue.svg" alt="Minimal Blog is released under the 0BSD license." />
+    <img src="https://img.shields.io/badge/license-0BSD-blue.svg" alt="Codecaesar.com is released under the 0BSD license." />
   </a>
   <a href="https://github.com/sponsors/LekoArts">
     <img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/LekoArts">
