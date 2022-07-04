@@ -18,7 +18,7 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `@codecaesar/gatsby-theme-minimal-blog`,
+      resolve: `@codecaesar/bloghome`,
       // See the theme's README for all available options
       options: {
         navigation: [
