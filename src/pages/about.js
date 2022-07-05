@@ -2,7 +2,7 @@
 import * as React from 'react'
 
 // Step 2: Define your component
-const IndexPage = () => {
+const AboutPage = () => {
   return (
     <main>
       <title>About Me</title>
