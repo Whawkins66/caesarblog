@@ -1,14 +1,16 @@
 import * as React from 'react'
-import { Link } from 'gatsby'
+import Layout from '../components/layout'
+import { StaticImage } from 'gatsby-plugin-image'
 
 const IndexPage = () => {
   return (
-    <main>
-      <title>Home Page</title>
-      <h1>Welcome to my Gatsby site!</h1>
-      <Link to="/about">About</Link>
-      <p>I'm making this by following the Gatsby Tutorial.</p>
-    </main>
+    <Layout pageTitle="Home Page">
+      <p>VENI VEDI VICI!</p>
+      <StaticImage
+        alt="HAIL CAESAR!"
+        src="https://englishpluspodcast.com/wp-content/uploads/2021/06/Episode-360-Who-Is-Julius-Caesar.jpg"
+      />
+    </Layout>
   )
 }
 

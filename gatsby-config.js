@@ -60,6 +60,8 @@ module.exports = {
       },
     },
     `gatsby-plugin-gatsby-cloud`,
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
     shouldAnalyseBundle && {
       resolve: `gatsby-plugin-webpack-bundle-analyser-v2`,
       options: {
