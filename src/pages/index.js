@@ -8,7 +8,7 @@ const IndexPage = () => {
       <p>VENI VEDI VICI!</p>
       <StaticImage
         alt="Mark Anthony"
-        src="../images/mark.jpg"
+        src="../images/mark.jpeg"
       />
     </Layout>
   )
