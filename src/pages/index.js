@@ -7,8 +7,8 @@ const IndexPage = () => {
     <Layout pageTitle="Home Page">
       <p>VENI VEDI VICI!</p>
       <StaticImage
-        alt="HAIL CAESAR!"
-        src="https://englishpluspodcast.com/wp-content/uploads/2021/06/Episode-360-Who-Is-Julius-Caesar.jpg"
+        alt="Mark Anthony"
+        src="../images/mark.jpg"
       />
     </Layout>
   )
