@@ -13,7 +13,7 @@ module.exports = {
     siteUrl: `https://codecaesar.com`,
     siteDescription: `Caesar`,
     siteLanguage: `en`,
-    siteImage: `/banner.jpg`,
+    siteImage: `/images/CZRICON.svg`,
     author: `@caesar`,
   },
   plugins: [
