@@ -32,33 +32,6 @@ module.exports = {
         ],
       },
     },
-    `gatsby-plugin-sitemap`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `codecaesar.com`,
-        short_name: `czr-blog`,
-        description: `caesar blog`,
-        start_url: `/`,
-        background_color: `#702963`,  //byzantine purple
-        // This will impact how browsers show your PWA/website
-        // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#6B46C1`,
-        display: `standalone`,
-        icons: [
-          {
-            src: `/android-chrome-192x192.png`,
-            sizes: `192x192`,
-            type: `image/png`,
-          },
-          {
-            src: `/android-chrome-512x512.png`,
-            sizes: `512x512`,
-            type: `image/png`,
-          },
-        ],
-      },
-    },
     `gatsby-plugin-gatsby-cloud`,
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
