@@ -7,12 +7,13 @@ import {
   navLinkItem,
   navLinkText
 } from './layout.module.css'
+import Header from '../components/header'
 
 const Layout = ({ pageTitle, children }) => {
   return (
     <div className={container}>
       <title>{pageTitle}</title>
-      <nav>
+      {/* <nav>
         <ul className={navLinks}>
           <li className={navLinkItem}>
             <Link to="/" className={navLinkText}>
@@ -25,7 +26,8 @@ const Layout = ({ pageTitle, children }) => {
             </Link>
           </li>
         </ul>
-      </nav>
+      </nav> */}
+      <Header></Header>
       <main>
         <h1 className={heading}>{pageTitle}</h1>
         {children}
